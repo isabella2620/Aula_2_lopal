@@ -3,8 +3,6 @@ altura = float(input("Digite a altura: "))
 idade = int(input("Digite a Idade: "))
 autorização = input("Tem autorização (sim/nao): ")
 
-altura >= 140
-idade >= 12
 
 if altura >= 140 and idade >= 12 or autorização == "sim":
     situação = "Acesso Liberado!"
